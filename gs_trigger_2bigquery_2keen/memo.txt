@@ -1,0 +1,1 @@
+gcloud functions deploy vad_1_gcs_trigger_2keen --runtime python37 --trigger-resource hm-experiment --trigger-event google.storage.object.finalize --memory 2048 --timeout 500
